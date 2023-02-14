@@ -36,12 +36,7 @@ body {
 
 .pass-generator__title {
   margin: 0 0 30px 0;
-}
-
-.pass-generator__form {
-}
-
-.form-pass {
+  text-align: center;
 }
 
 .form-pass__slider {
@@ -49,9 +44,6 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0 0 20px 0;
-}
-
-.form-pass__slider-value {
 }
 
 .form-pass__group {
@@ -65,9 +57,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-}
-
-.pass-generator__output {
 }
 
 .output-pass__field {
