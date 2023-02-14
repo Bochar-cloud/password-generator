@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #fff;
+  background-color: rgba(36, 36, 36, 0.9);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1310px;
+  padding: 0 15px;
+}
+
+.pass-generator {
+  width: 100%;
+  max-width: 500px;
+}
+
+.pass-generator__title {
+  margin: 0 0 30px 0;
+}
+
+.pass-generator__form {
+}
+
+.form-pass {
+}
+
+.form-pass__slider {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 20px 0;
+}
+
+.form-pass__slider-value {
+}
+
+.form-pass__group {
+  margin: 0 0 20px 0;
+  border-radius: 20px;
+  background-color: rgba(109, 109, 109, 0.5);
+  padding: 20px;
+}
+
+.form-pass__checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.pass-generator__output {
+}
+
+.output-pass__field {
+  display: flex;
+  align-items: center;
+}
+
+.output-pass__field-text {
+  text-align: left;
+  font-size: 24px;
+  width: calc(100% - 100px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.output-pass__field {
+  border-radius: 20px;
+  background-color: rgba(109, 109, 109, 0.5);
+  padding: 20px;
+}
+
+.button-reset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
